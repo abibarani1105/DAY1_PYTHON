@@ -1,0 +1,97 @@
+Maya wants to know how the Numbers are converted to string in the program.could you please help her to implements the program.
+
+Input Format
+
+input consists of one integer
+Constraints
+
+Given N is greater than 0 and lesser than 9
+Output Format
+
+print the number into string type.
+Sample Input 0
+
+0
+Sample Output 0
+
+Integer is 0 and String is Zero
+Sample Input 1
+
+2
+Sample Output 1
+
+Integer is 2 and String is Two
+Sample Input 2
+
+10
+Sample Output 2
+
+Invalid Input
+Contest ends in 5 days
+Submissions: 85
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+n =int(input())
+3
+num_to_str = {
+4
+    0: "Zero",
+5
+    1: "One",
+6
+    2: "Two",
+7
+    3: "Three",
+8
+    4: "Four",
+9
+    5: "Five",
+10
+    6: "Six",
+11
+    7: "Seven",
+12
+    8: "Eight",
+13
+    9: "Nine"
+14
+}
+15
+if 0 <= n <= 9:
+16
+    print(f"Integer is {n} and String is {num_to_str[n]}")
+17
+else:
+18
+    print("Invalid Input")
+19
+​
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Testcase 1
+Testcase 2
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+0
+Your Output (stdout)
+
+Integer is 0 and String is Zero
+Expected Output
+
+Integer is 0 and String is Zero
+Interview Prep | Blog | Scoring | Environment | FAQ | About Us | Support | Careers | Terms Of Service | Privacy Policy |
+
